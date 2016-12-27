@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+}
+
+body {
+    background: rgb(230, 230, 230);
+}
+
+.score-borad {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+button {
+     
+    position: absolute;
+    margin-top: 400px;
+    right: 80px;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    background-color: #9DCD14;
+    border-radius: 8px;
+    color: #EEE;
+}
+
+header h1 {
+    float: left;
+    height: 50px;
+    text-align: center;
+    color: #636163;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+ul {
+    width: 500px;
+    height: 500px;
+    background-color: #CDB59B;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+ul li {
+    float: left;
+    display: block;
+    width: 111px;
+    height: 111px;
+    border-radius: 10px;
+    background-color: #CEC6BD;
+    margin: 7px;
+    list-style: none;
+}
+
+ul li::after {
+    content: "";
+    display: block;
+    width: 111px;
+    height: 111px;
+    color: #636163;
+    background-color: #CEC6BD;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 111px;
+    font-size: 3em;
+    font-weight: 900;
+    transition: all .3s;
+}
+
+ul li.active-2::after {
+    content: "2";
+    color: #636163;
+    background-color: #FFEFDE;
+    transition: all .3s
+}
+
+ul li.active-4::after {
+    content: "4";
+    color: #636163;
+    background-color: #FFE7BD;
+    transition: all .3s
+}
+
+ul li.active-8::after {
+    content: "8";
+    color: #EEE;
+    background-color: #F59563;
+    transition: all .3s
+}
+
+ul li.active-16::after {
+    content: "16";
+    color: #EEE;
+    background-color: #ED8040;
+    transition: all .3s
+}
+
+ul li.active-32::after {
+    content: "32";
+    color: #EEE;
+    background-color: #ED6140;
+    transition: all .3s
+}
+
+ul li.active-64::after {
+    content: "64";
+    color: #EEE;
+    background-color: #F23B0C;
+    transition: all .3s
+}
+
+ul li.active-128::after {
+    content: "128";
+    color: #EEE;
+    background-color: #EDCF72;
+    transition: all .3s
+}
+
+ul li.active-256::after {
+    content: "256";
+    color: #EEE;
+    background-color: #EDCC61;
+    transition: all .3s
+}
+
+ul li.active-512::after {
+    content: "512";
+    color: #EEE;
+    background-color: #EDC850;
+    transition: all .3s
+}
+
+ul li.active-1024::after {
+    content: "1024";
+    color: #EEE;
+    background-color: #EDC53F;
+    transition: all .3s
+}
+
+ul li.active-2048::after {
+    content: "2048";
+    color: #EEE;
+    background-color: #EDC22E;
+    transition: all .3s
+}
