@@ -365,8 +365,9 @@ function Block() {
     this.className = "";
     this.number = 0;
 
-    this.initBlock = function() {
-        this.className = "";
-        this.number = 0;
-    }.bind(this);
+}
+
+Block.prototype.initBlock = function() {
+    this.className = "";
+    this.number = 0;
 }
