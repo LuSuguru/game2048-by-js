@@ -364,7 +364,6 @@ var blockMove = {
 function Block() {
     this.className = "";
     this.number = 0;
-
 }
 
 Block.prototype.initBlock = function() {
