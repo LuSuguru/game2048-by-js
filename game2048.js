@@ -150,7 +150,6 @@ function init() {
  * 滑块移动
  */
 var blockMove = {
-
     left: function() {
         var leftBlock = [],
             block,
