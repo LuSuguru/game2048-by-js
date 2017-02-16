@@ -6,32 +6,32 @@
 
 body {
     background: rgb(230, 230, 230);
+    padding-left: 200px;
+    box-sizing: border-box;
+    position: relative;
 }
 
-.score-borad {
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 15px;
+header {
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    left: 0;
+    padding-left: 50px;
 }
 
 button {
-     
-    position: absolute;
-    margin-top: 400px;
-    right: 80px;
-    width: 200px;
-    height: 80px;
+    width: 150px;
+    height: 60px;
     font-size: 30px;
     font-weight: 600;
     border: 0;
-    outline: 0;
+    margin-top: 380px;
     background-color: #9DCD14;
     border-radius: 8px;
     color: #EEE;
 }
 
 header h1 {
-    float: left;
     height: 50px;
     text-align: center;
     color: #636163;
@@ -39,12 +39,19 @@ header h1 {
     line-height: 80px;
 }
 
+main {
+    width: 100%;
+}
+
 ul {
+    min-width: 500px;
+    min-height: 500px;
+    margin: 50px 200px;
     width: 500px;
     height: 500px;
     background-color: #CDB59B;
     border-radius: 8px;
-    margin: 0 auto;
+
 }
 
 ul li {
